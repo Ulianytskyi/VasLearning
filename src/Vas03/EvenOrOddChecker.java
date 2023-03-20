@@ -30,11 +30,13 @@ public class EvenOrOddChecker {
             try {
                 number = Integer.parseInt(input);
                 if (number % 2 == 0) {
-                    img = resizeImage("/Users/ulianytskyi/Programming/IdeaProjects/VasLearning/src/Vas03/even_pupp.jpg", 64, 64);
+                    img = resizeImage("/Users/ulianytskyi/Programming/IdeaProjects/VasLearning/src/Vas03/even_pupp.jpg",
+                            64, 64);
                     txt = "Число " + number + " - парне!";
                     title = "Парне число";
                 } else {
-                    img = resizeImage("/Users/ulianytskyi/Programming/IdeaProjects/VasLearning/src/Vas03/odd_pupp.jpg", 64, 64);
+                    img = resizeImage("/Users/ulianytskyi/Programming/IdeaProjects/VasLearning/src/Vas03/odd_pupp.jpg",
+                            64, 64);
                     txt = "Число " + number + " - непарне!";
                     title = "Непарне число";
                 }
